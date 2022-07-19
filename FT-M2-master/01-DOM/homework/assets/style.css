@@ -1,10 +1,19 @@
 body {
-  background-color: rgb(155, 148, 128);
+  background-color: rgba(150, 132, 112, 0.993);
   font-family: "Tahoma",Helvetica,Arial,sans-serif;
   margin-top: 56px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1{
+  font-family: "Courier";
+  font-size: 60px;
+}
+
+#createdBy{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #header {
@@ -23,7 +32,7 @@ body {
 #header span {
   font-family: "Roboto";
   font-size: 24px;
-  color: white;
+  color: rgb(17, 17, 17);
   padding-right: 15px;
 }
 
@@ -38,6 +47,7 @@ body {
   background-color: #5f3636;
   box-shadow: 2px 2px 5px rgb(119, 104, 86);
   width: 50%;
+  margin-top: 50px;
   min-width: 700px;
   border-radius: 5px;
 }
@@ -68,7 +78,7 @@ body {
   cursor: pointer;
   height: 35px;
   background: #664444;
-  color: #FFF;
+  color: rgb(255, 255, 255);
   font-size: 20px;
 }
 
@@ -86,7 +96,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #fff;
+  background: rgb(146, 130, 117);
   margin-bottom: 10px;
   border-radius: 5px;
   font-size: 20px;
